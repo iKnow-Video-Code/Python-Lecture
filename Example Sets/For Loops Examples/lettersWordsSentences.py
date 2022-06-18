@@ -16,6 +16,7 @@ for i in textInput:
         countWords += 1
     if i == "?" or i == "!" or i == ".":
         countSentences += 1
+        
 print("The number of letters is " + str(countLetters))
 print("The number of words is " + str(countWords))
 print("The number of sentences is " + str(countSentences))
